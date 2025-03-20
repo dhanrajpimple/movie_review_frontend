@@ -1,12 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AdminPanel.jsx
+│   │   ├── Login.jsx
+│   │   ├── MoviesList.jsx
+│   │   ├── MovieDetails.jsx
+│   │   └── Signup.jsx
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── api.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── README.md
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+Frontend:
 
-## Expanding the ESLint configuration
+React – Frontend framework
+Tailwind CSS – Styling
+Vite – Fast development environment
+React Router – Routing
+Axios – HTTP requests
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Installation & Setup
+1. Clone the repository:
+git clone https://github.com/dhanrajpimple/movie_review_frontend.git
+
+
+
+2. Navigate to the frontend directory:
+cd frontend
+
+
+3. Install dependencies:
+npm install
+
+
+4. Configure environment variables:
+Create a .env file in the frontend directory and add:
+VITE_API_URL=  http://localhost:5000/api 
+
+
+
+5. Start the development server:
+npm run dev
+
+
+6. You can visit on 
+https://movie-review-frontend-omega.vercel.app/
